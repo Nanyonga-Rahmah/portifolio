@@ -39,7 +39,7 @@ function SocialHandles() {
     <div className="flex  flex-col border-2 border-gray-400 rounded-[20px] drop-shadow-md pt-4 pb-5 px-10 max-w-[500px]   ">
       <h3 className="pb-3 font-bold text-xl">You might like</h3>
       {socials.map((social, index) => (
-        <div key={index} className="flex justify-between my-2 ">
+        <div key={index} className="flex justify-between my-2 gap-4 ">
           <div className="flex justify-between gap-2">
             <div className="border rounded-full flex justify-center items-center w-[50px] h-[50px]">
               {social.icon}
@@ -52,7 +52,7 @@ function SocialHandles() {
           <div>
             <Button
               variant="outline"
-              className="text-white bg-red-600 border-none rounded-full font-bold"
+              className="text-white bg-red-600 border-none rounded-full font-bold mt-3"
             >
               Follow
             </Button>

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import TwitterIcon from "@mui/icons-material/Twitter";
+
 
 
 
@@ -58,14 +58,14 @@ function FeedBack() {
         </div>
       
       {feeds.map((feed, index) => (
-        <div key={index} className="flex justify-between my-4 ">
+        <div key={index} className="flex justify-between my-2 ">
           <div className="flex justify-between gap-2">
             <div className="border rounded-full flex justify-center items-center w-[50px] h-[50px]">
             <PersonIcon />
             </div>
             <div>
               <div className="font-semibold capitalize">{feed.name}</div>
-              <div className="text-xl font-medium">{feed.message}</div>
+              <div className="text-[1rem] font-medium">{feed.message}</div>
             </div>
           </div>
           <div>

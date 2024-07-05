@@ -17,6 +17,10 @@ const config = {
         "2xl": "1400px",
       },
     },
+    backgroundImage: {
+      'hero-image': "url('/images/background.jpg')",
+     
+     },
     extend: {
       keyframes: {
         "accordion-down": {

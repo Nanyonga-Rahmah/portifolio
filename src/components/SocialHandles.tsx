@@ -78,9 +78,9 @@ function SocialHandles() {
             </Button>
           </div>
         </form>
-        <div className="flex gap-2 mt-4">
+        <div className="flex gap-1 mt-4 text-[12px]">
           <EmojiFlagsIcon />
-          <p className="font-md text-[16px]"> No Spam.Subscribe Now</p>
+          <p className="font-md "> No Spam.Subscribe Now</p>
         </div>
       </div>
     </div>

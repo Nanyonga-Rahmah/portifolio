@@ -17,25 +17,28 @@ function Profile() {
       Creative coder with unyielding curiosity.
       </div>
 
-     <div className="flex my-2 gap-2 ">
+     <div className="flex my-2 gap-1">
        <span className="text-[.8rem] font-bold">Passionate Software Engineer</span>
        <Separator orientation="vertical" />
 
        <span className="text-[.8rem] font-bold">Frontend Web Developer</span>
        <Separator orientation="vertical" />
 
-       <span className="text-[.8rem] font-bold">Upcoming Backend Developer</span>
+       <span className="text-[.8rem] font-bold"> Backend Developer</span>
+       <Separator orientation="vertical" />
+
+       <span className="text-[.8rem] font-bold">UpComing Data Scientist</span>
      </div>
       <div className="flex gap-2 text-gray-400">
-        <p className="flex gap-1">
+        <p className="flex gap-1 text-sm">
           <FmdGoodIcon />
           Kampala ,Uganda
         </p>
-        <p className="flex gap-1">
+        <p className="flex gap-1 text-sm">
           <CakeIcon/>
           January 17th
         </p>
-        <p className="flex gap-1">
+        <p className="flex gap-1 text-sm">
           <CalendarMonthIcon  />
           Kampala ,Uganda
         </p>
